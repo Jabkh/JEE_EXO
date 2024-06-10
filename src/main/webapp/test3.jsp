@@ -8,11 +8,8 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-
     <title>Title</title>
-
     <%@ include file="bootstrap-includes.jsp" %>
-
 </head>
 <body>
 <div class="container mt-5">
