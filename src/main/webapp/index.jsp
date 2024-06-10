@@ -8,7 +8,7 @@
 <h1><%= "Hello World!" %>
 </h1>
 <br/>
-<a href="monServlet">Text Brut</a>
+<a href="montext">Text Brut</a>
 <a href="hello-servlet">html</a>
 <a href="monservlet-jsp">JSP</a>
 </body>

@@ -9,7 +9,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 
 
-@WebServlet(name = "monServlet",value = "/monServlet")
+@WebServlet(name = "monText",value = "/montext")
 public class TextBrutServlet extends HttpServlet {
 
     @Override
@@ -19,7 +19,7 @@ public class TextBrutServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        System.out.println("Un requete GET a ete envoyée à /monServlet");
+        System.out.println("Un requete GET a ete envoyée à /montext");
 
         resp.setContentType("text/plain");
 
@@ -30,6 +30,6 @@ public class TextBrutServlet extends HttpServlet {
 
     @Override
     public void destroy() {
-        System.out.println("monServlet est détruit !!!");
+        System.out.println("montext est détruit !!!");
     }
 }
