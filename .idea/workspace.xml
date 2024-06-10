@@ -10,9 +10,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d89aece-5250-4994-86b6-4711ab90cd78" name="Changes" comment="text brut html et jsp">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/test.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/demo/TextBrutServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/demo/TextBrutServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -199,7 +196,7 @@
       <updated>1718020450310</updated>
       <workItem from="1718020451353" duration="99000" />
       <workItem from="1718020560832" duration="1407000" />
-      <workItem from="1718021976209" duration="2658000" />
+      <workItem from="1718021976209" duration="3054000" />
     </task>
     <task id="LOCAL-00001" summary="text brut html et jsp">
       <option name="closed" value="true" />
@@ -209,7 +206,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718022073619</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="text brut html et jsp">
+      <option name="closed" value="true" />
+      <created>1718024778924</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1718024778924</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

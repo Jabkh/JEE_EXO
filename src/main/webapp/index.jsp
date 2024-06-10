@@ -9,7 +9,9 @@
 </h1>
 <br/>
 <a href="montext">Text Brut</a>
+<br>
 <a href="hello-servlet">html</a>
+<br>
 <a href="monservlet-jsp">JSP</a>
 </body>
 </html>
