@@ -26,8 +26,8 @@
             for (Personne person : personnes) {
         %>
         <tr>
-            <td><%= person.getNom() %></td>
             <td><%= person.getPrenom() %></td>
+            <td><%= person.getNom() %></td>
             <td><%= person.getAge() %></td>
         </tr>
         <% } %>

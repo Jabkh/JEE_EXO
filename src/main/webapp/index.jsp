@@ -24,6 +24,8 @@
     <a class="btn btn-info" href="monservlet-jsp">JSP3</a>
     <br/><br/>
     <a class="btn btn-info" href="variables">Exercice3</a>
+    <br/><br/>
+    <a class="btn btn-info" href="formulaire">Exercice4</a>
 </div>
 
 <%--<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>--%>

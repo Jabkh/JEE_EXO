@@ -9,18 +9,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d89aece-5250-4994-86b6-4711ab90cd78" name="Changes" comment="utilisation de &lt;% include %&gt; avec bootstrap ajout de l'exercice 2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/demo/Personne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/demo/VariablesServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/personnes.jsp" afterDir="false" />
+    <list default="true" id="1d89aece-5250-4994-86b6-4711ab90cd78" name="Changes" comment="utilisation de Scriptlet &lt;% %&gt; et Ajout de la classe Personne pour l'exo 3">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/demo/Chat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/demo/FormulaireServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/addChat.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/chats.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/demo/JSPServlet2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/demo/JSPServlet2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/demo/JSPServlet3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/demo/JSPServlet3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/bootstrap-includes.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-includes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/test.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/test.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/test2.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/test2.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/test3.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/test3.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/personnes.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/personnes.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,18 +35,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Jabkh"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Jabkh&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Jabkh/JEE_EXO",
-    "accountId": "1274ca29-03c1-428c-b890-0ac8361c246e"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Jabkh/JEE_EXO&quot;,
+    &quot;accountId&quot;: &quot;1274ca29-03c1-428c-b890-0ac8361c246e&quot;
   }
-}]]></component>
+}</component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
@@ -77,25 +74,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Tomcat Server.Tomcat 10.1.24.executor": "Run",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Administrateur/Documents/Java/tdd_JAVA/demo/src/main/webapp",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Tomcat Server.Tomcat 10.1.24.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Administrateur/Documents/Java/tdd_JAVA/demo/src/main/webapp&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Administrateur\Documents\Java\tdd_JAVA\demo\src\main\webapp" />
@@ -211,7 +208,9 @@
       <updated>1718020450310</updated>
       <workItem from="1718020451353" duration="99000" />
       <workItem from="1718020560832" duration="1407000" />
-      <workItem from="1718021976209" duration="16129000" />
+      <workItem from="1718021976209" duration="20610000" />
+      <workItem from="1718109816145" duration="88000" />
+      <workItem from="1718109920743" duration="3939000" />
     </task>
     <task id="LOCAL-00001" summary="text brut html et jsp">
       <option name="closed" value="true" />
@@ -245,7 +244,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718030582780</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="utilisation de Scriptlet &lt;% %&gt; et Ajout de la classe Personne pour l'exo 3">
+      <option name="closed" value="true" />
+      <created>1718097115613</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1718097115613</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,6 +262,7 @@
     <MESSAGE value="text brut html et jsp" />
     <MESSAGE value="changement du fichier html" />
     <MESSAGE value="utilisation de &lt;% include %&gt; avec bootstrap ajout de l'exercice 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="utilisation de &lt;% include %&gt; avec bootstrap ajout de l'exercice 2" />
+    <MESSAGE value="utilisation de Scriptlet &lt;% %&gt; et Ajout de la classe Personne pour l'exo 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="utilisation de Scriptlet &lt;% %&gt; et Ajout de la classe Personne pour l'exo 3" />
   </component>
 </project>
