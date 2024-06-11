@@ -9,7 +9,7 @@
 <html>
 <head>
     <title>Title</title>
-    <%@ include file="bootstrap-includes.jsp" %>
+    <%@ include file="bootstrap-includes.html" %>
 </head>
 <body>
 <div class="container mt-5">

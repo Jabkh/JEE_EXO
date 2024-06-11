@@ -23,6 +23,6 @@ public class JSPServlet2 extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
         req.setAttribute("nom",nom);
-        getServletContext().getRequestDispatcher("/test.jsp").forward(req,resp);
+        getServletContext().getRequestDispatcher("/test2.jsp").forward(req,resp);
     }
 }

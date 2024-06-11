@@ -9,16 +9,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d89aece-5250-4994-86b6-4711ab90cd78" name="Changes" comment="changement du fichier html">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/demo/JSPServlet2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/demo/JSPServlet3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-includes.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/style/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/test2.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/test3.jsp" afterDir="false" />
+    <list default="true" id="1d89aece-5250-4994-86b6-4711ab90cd78" name="Changes" comment="utilisation de &lt;% include %&gt; avec bootstrap ajout de l'exercice 2">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/demo/Personne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/demo/VariablesServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/personnes.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/demo/JSPServlet2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/demo/JSPServlet2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/demo/JSPServlet3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/demo/JSPServlet3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/bootstrap-includes.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-includes.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/test.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/test.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/test2.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/test2.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/test3.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/test3.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +30,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Class" />
         <option value="Jsp File" />
       </list>
     </option>
@@ -208,7 +211,7 @@
       <updated>1718020450310</updated>
       <workItem from="1718020451353" duration="99000" />
       <workItem from="1718020560832" duration="1407000" />
-      <workItem from="1718021976209" duration="7638000" />
+      <workItem from="1718021976209" duration="16129000" />
     </task>
     <task id="LOCAL-00001" summary="text brut html et jsp">
       <option name="closed" value="true" />
@@ -234,7 +237,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718025084063</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="utilisation de &lt;% include %&gt; avec bootstrap ajout de l'exercice 2">
+      <option name="closed" value="true" />
+      <created>1718030582780</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1718030582780</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,6 +254,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="text brut html et jsp" />
     <MESSAGE value="changement du fichier html" />
-    <option name="LAST_COMMIT_MESSAGE" value="changement du fichier html" />
+    <MESSAGE value="utilisation de &lt;% include %&gt; avec bootstrap ajout de l'exercice 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="utilisation de &lt;% include %&gt; avec bootstrap ajout de l'exercice 2" />
   </component>
 </project>

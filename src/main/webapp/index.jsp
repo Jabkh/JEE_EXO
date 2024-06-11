@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JSP - Hello World</title>
 
-    <%@ include file="bootstrap-includes.jsp" %>
+    <%@ include file="bootstrap-includes.html" %>
 
     </head>
 <body>
@@ -22,6 +22,8 @@
     <a class="btn btn-info" href="monservlet-jsp">JSP2</a>
     <br/><br/>
     <a class="btn btn-info" href="monservlet-jsp">JSP3</a>
+    <br/><br/>
+    <a class="btn btn-info" href="variables">Exercice3</a>
 </div>
 
 <%--<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>--%>
